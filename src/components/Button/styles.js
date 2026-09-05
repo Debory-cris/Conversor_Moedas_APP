@@ -12,6 +12,7 @@ export const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: colors.inputbackground,
     },
+
     buttonText: {
         color: colors.text,
         fontWeight: '500',
@@ -25,6 +26,17 @@ export const styles = StyleSheet.create({
         backgroundColor: colors.secondary,
         borderColor: colors.secondary,
     },
+    buttonText: {
+        color: colors.text,
+        fontWeight: '500',
+        fontSize: 16,
+    },
+    buttonTextSelected: {
+        color: '#ffffff',
+        fontWeight: '600',
+    },
+    buttonPrymary: {
+    }
 });
 
 export default styles;
